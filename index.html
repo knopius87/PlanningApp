@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#355c54" />
+    <meta name="description" content="Planpult – persönliches Schuljahr- und Belastungs-Cockpit 2026/27" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Planpult · Schuljahr 2026/27</title>
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Schuljahr 2026/27</p>
+        <h1>Planpult</h1>
+        <p class="subtitle">Deine Woche mit Luft, Vorlauf und realistischen Korrekturzeiten.</p>
+      </div>
+      <div class="header-actions">
+        <button id="installButton" class="ghost hidden" type="button">App installieren</button>
+        <button id="themeButton" class="icon-button" type="button" aria-label="Farbschema wechseln">◐</button>
+      </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <button class="nav-button active" data-screen="week" type="button">Woche</button>
+      <button class="nav-button" data-screen="year" type="button">Jahresplan</button>
+      <button class="nav-button" data-screen="rules" type="button">Regeln</button>
+    </nav>
+
+    <main>
+      <section id="weekScreen" class="screen active" aria-labelledby="weekHeading">
+        <div class="week-toolbar card">
+          <button id="previousWeek" class="icon-button" type="button" aria-label="Vorherige Woche">←</button>
+          <div>
+            <h2 id="weekHeading">Woche</h2>
+            <p id="weekRange" class="muted"></p>
+          </div>
+          <button id="nextWeek" class="icon-button" type="button" aria-label="Nächste Woche">→</button>
+          <button id="todayButton" class="ghost" type="button">Heute</button>
+        </div>
+
+        <section id="loadSummary" class="load-summary card" aria-live="polite"></section>
+
+        <section class="quick-section card" aria-labelledby="quickHeading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Schnell hinzufügen</p>
+              <h2 id="quickHeading">Was steht an?</h2>
+            </div>
+            <button id="weekBriefButton" class="ghost" type="button">Wochenbrief</button>
+          </div>
+          <div id="quickButtons" class="quick-grid"></div>
+        </section>
+
+        <section id="suggestionsSection" class="card hidden" aria-labelledby="suggestionsHeading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Mit Vorlauf</p>
+              <h2 id="suggestionsHeading">Vorbereitungsvorschläge</h2>
+            </div>
+          </div>
+          <div id="suggestionsList" class="suggestion-list"></div>
+        </section>
+
+        <section aria-label="Wochenübersicht">
+          <div id="weekGrid" class="week-grid"></div>
+        </section>
+      </section>
+
+      <section id="yearScreen" class="screen" aria-labelledby="yearHeading">
+        <div class="section-heading card">
+          <div>
+            <p class="eyebrow">Terminplan der Schule</p>
+            <h2 id="yearHeading">Jahresplan 2026/27</h2>
+          </div>
+          <label class="search-field">
+            <span class="sr-only">Termine durchsuchen</span>
+            <input id="eventSearch" type="search" placeholder="z. B. ZP10, Konferenz …" />
+          </label>
+        </div>
+        <div id="eventList" class="event-list"></div>
+      </section>
+
+      <section id="rulesScreen" class="screen" aria-labelledby="rulesHeading">
+        <div class="section-heading card">
+          <div>
+            <p class="eyebrow">Dein persönlicher Rahmen</p>
+            <h2 id="rulesHeading">Regeln & Daten</h2>
+          </div>
+        </div>
+        <form id="rulesForm" class="rules-grid card">
+          <fieldset>
+            <legend>Arbeitskapazität außerhalb des Unterrichts</legend>
+            <div id="capacityInputs" class="capacity-grid"></div>
+          </fieldset>
+          <label>
+            Puffer, der frei bleiben soll
+            <span class="inline-control"><input id="bufferInput" type="range" min="0" max="40" step="5" /><output id="bufferOutput"></output></span>
+          </label>
+          <label class="checkbox-row">
+            <input id="weekendProtectedInput" type="checkbox" />
+            Samstag und Sonntag schützen
+          </label>
+          <div class="form-actions">
+            <button class="primary" type="submit">Regeln speichern</button>
+            <button id="resetRulesButton" class="ghost" type="button">Standard wiederherstellen</button>
+          </div>
+        </form>
+
+        <section class="card" aria-labelledby="learnedHeading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Aus deiner Ist-Zeit</p>
+              <h2 id="learnedHeading">Meine Korrekturwerte</h2>
+            </div>
+            <button id="resetLearnedButton" class="ghost danger-text" type="button">Lernwerte zurücksetzen</button>
+          </div>
+          <div id="learnedValues"></div>
+        </section>
+
+        <section class="card" aria-labelledby="dataHeading">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Nur auf diesem Gerät gespeichert</p>
+              <h2 id="dataHeading">Sicherung</h2>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button id="backupButton" class="ghost" type="button">Backup herunterladen</button>
+            <label class="ghost file-button">Backup einlesen<input id="restoreInput" type="file" accept="application/json" /></label>
+          </div>
+          <p id="storageNotice" class="muted small"></p>
+        </section>
+      </section>
+    </main>
+
+    <dialog id="taskDialog" class="app-dialog">
+      <form id="taskForm" method="dialog">
+        <div class="dialog-header">
+          <div>
+            <p id="taskDialogEyebrow" class="eyebrow">Aufgabe</p>
+            <h2 id="taskDialogTitle">Aufgabe hinzufügen</h2>
+          </div>
+          <button class="icon-button close-dialog" type="button" aria-label="Schließen">×</button>
+        </div>
+        <input id="editTaskId" type="hidden" />
+        <input id="taskCategory" type="hidden" />
+
+        <div id="genericTaskFields" class="form-grid">
+          <label>Titel<input id="taskTitle" type="text" maxlength="120" required /></label>
+          <label>Dauer in Minuten<input id="taskMinutes" type="number" min="15" max="4800" step="15" required /></label>
+        </div>
+
+        <div id="correctionFields" class="form-grid hidden">
+          <label>
+            Korrekturart
+            <select id="correctionType"></select>
+          </label>
+          <label>Anzahl Schüler:innen / Arbeiten<input id="studentCount" type="number" min="1" max="200" value="28" /></label>
+          <div id="correctionEstimate" class="estimate-card" aria-live="polite"></div>
+          <fieldset>
+            <legend>Meine tatsächliche Gesamtzeit (optional)</legend>
+            <div class="two-columns">
+              <label>Stunden<input id="actualHours" type="number" min="0" max="200" value="0" /></label>
+              <label>Minuten<input id="actualMinutes" type="number" min="0" max="59" value="0" /></label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="form-grid">
+          <label>Beginn / Arbeitstag<input id="taskDate" type="date" required /></label>
+          <label>Fällig bis<input id="taskDueDate" type="date" /></label>
+          <label>
+            Priorität
+            <select id="taskPriority"><option value="normal">Normal</option><option value="high">Hoch</option></select>
+          </label>
+          <label class="checkbox-row" id="distributeRow"><input id="autoDistribute" type="checkbox" checked /> In passende Blöcke bis zur Frist verteilen</label>
+        </div>
+        <p id="taskFormError" class="error-message hidden" role="alert"></p>
+        <div class="form-actions sticky-actions">
+          <button class="primary" type="submit">Speichern</button>
+          <button class="ghost close-dialog" type="button">Abbrechen</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="actualDialog" class="app-dialog compact-dialog">
+      <form id="actualForm" method="dialog">
+        <div class="dialog-header">
+          <div><p class="eyebrow">Persönlicher Lernwert</p><h2>Ist-Zeit eintragen</h2></div>
+          <button class="icon-button close-dialog" type="button" aria-label="Schließen">×</button>
+        </div>
+        <input id="actualGroupId" type="hidden" />
+        <p id="actualDialogInfo" class="muted"></p>
+        <div class="two-columns">
+          <label>Stunden<input id="groupActualHours" type="number" min="0" max="200" value="0" required /></label>
+          <label>Minuten<input id="groupActualMinutes" type="number" min="0" max="59" value="0" required /></label>
+        </div>
+        <p id="actualFormError" class="error-message hidden"></p>
+        <div class="form-actions"><button class="primary" type="submit">Übernehmen</button><button class="ghost close-dialog" type="button">Abbrechen</button></div>
+      </form>
+    </dialog>
+
+    <dialog id="briefDialog" class="app-dialog">
+      <div class="dialog-header">
+        <div><p class="eyebrow">Kompakte Übergabe</p><h2>Wochenbrief</h2></div>
+        <button class="icon-button close-dialog" type="button" aria-label="Schließen">×</button>
+      </div>
+      <textarea id="briefText" rows="14" readonly></textarea>
+      <div class="form-actions">
+        <button id="copyBriefButton" class="primary" type="button">Kopieren</button>
+        <button id="shareBriefButton" class="ghost" type="button">Teilen</button>
+        <button id="chatGptButton" class="ghost" type="button">Mit ChatGPT planen</button>
+      </div>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="./events.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

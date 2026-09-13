@@ -1,0 +1,27 @@
+{
+  "name": "Planpult · Schuljahr 2026/27",
+  "short_name": "Planpult",
+  "description": "Persönliches Schuljahr- und Belastungs-Cockpit mit Korrektur-Rechner.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f1e8",
+  "theme_color": "#355c54",
+  "lang": "de-DE",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

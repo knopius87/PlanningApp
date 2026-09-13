@@ -1,0 +1,782 @@
+[
+  {
+    "id": "school-1",
+    "date": "2026-08-27",
+    "title": "erw. SL",
+    "audience": "group"
+  },
+  {
+    "id": "school-2",
+    "date": "2026-08-28",
+    "title": "Sek.II-Team",
+    "audience": "group"
+  },
+  {
+    "id": "school-3",
+    "date": "2026-08-31",
+    "title": "schriftliche NP; Lehrkräftekonferenz; Teamkonferenzen",
+    "audience": "all"
+  },
+  {
+    "id": "school-4",
+    "date": "2026-09-01",
+    "title": "mündliche NP; Teamkonferenzen; Planung ToffT; ggfs: Gefahrstoffunterweisung (für alle Fachlehrkräfte, die mit Gefahrstoffen arfbeiten:); FoBi: Erste Hilfe",
+    "audience": "all"
+  },
+  {
+    "id": "school-5",
+    "date": "2026-09-02",
+    "title": "1. Schultag (5er um 9:00 Uhr; 6-Q2: 10.15h); Nachmittagsunterricht entfällt; stattdessen FoBi: Erste Hilfe",
+    "audience": "all"
+  },
+  {
+    "id": "school-6",
+    "date": "2026-09-11",
+    "title": "Kollegiumsausflug (Unterrichtsende 11.50h); Probetag Distanzunterricht per Teams",
+    "audience": "all"
+  },
+  {
+    "id": "school-7",
+    "date": "2026-09-13",
+    "title": "SV-/Sani-Fahrt",
+    "audience": "info"
+  },
+  {
+    "id": "school-8",
+    "date": "2026-09-14",
+    "title": "SV-/Sani-Fahrt",
+    "audience": "info"
+  },
+  {
+    "id": "school-9",
+    "date": "2026-09-15",
+    "title": "SV-/Sani-Fahrt",
+    "audience": "info"
+  },
+  {
+    "id": "school-10",
+    "date": "2026-09-16",
+    "title": "Pflegschaft 7-10 (8 PZ), EF, Q2: Beginn 19 Uhr (8er PZ um 18.30 Uhr sowie an Ausland interssierte Eltern 10); 12.15-13.45h Vortragsreihe Kl. 10 \"Konrad Adenauer\" (Sven Kellerhoff)",
+    "audience": "info"
+  },
+  {
+    "id": "school-11",
+    "date": "2026-09-17",
+    "title": "Pflegschaft 5, 6, Q1: Beginn 19 Uhr",
+    "audience": "info"
+  },
+  {
+    "id": "school-12",
+    "date": "2026-09-19",
+    "title": "JuBi-Messe",
+    "audience": "info"
+  },
+  {
+    "id": "school-13",
+    "date": "2026-09-21",
+    "title": "Klassenfahrt 6&9; Jom Kippur",
+    "audience": "group"
+  },
+  {
+    "id": "school-14",
+    "date": "2026-09-22",
+    "title": "Klassenfahrt 6&9",
+    "audience": "group"
+  },
+  {
+    "id": "school-15",
+    "date": "2026-09-23",
+    "title": "Klassenfahrt 6&9; Wandertag 5 und EF",
+    "audience": "group"
+  },
+  {
+    "id": "school-16",
+    "date": "2026-09-24",
+    "title": "Elternpflegschaft, Klassenfahrt 6&9",
+    "audience": "group"
+  },
+  {
+    "id": "school-17",
+    "date": "2026-09-25",
+    "title": "Klassenfahrt 6&9",
+    "audience": "group"
+  },
+  {
+    "id": "school-18",
+    "date": "2026-09-29",
+    "title": "freiw. Pä. Nachmittag: COPSOQ",
+    "audience": "group"
+  },
+  {
+    "id": "school-19",
+    "date": "2026-10-03",
+    "title": "Tag der deutschen Einheit (Feiertag)",
+    "audience": "info"
+  },
+  {
+    "id": "school-20",
+    "date": "2026-10-05",
+    "title": "erw SL: APOGOSt-Reform; Praktikum 10 (bis 16.10.)",
+    "audience": "group"
+  },
+  {
+    "id": "school-21",
+    "date": "2026-10-07",
+    "title": "Verkehrserziehung",
+    "audience": "info"
+  },
+  {
+    "id": "school-22",
+    "date": "2026-10-08",
+    "title": "Verkehrserziehung; Päd. Nachmittag (APOGOSt-Reform)",
+    "audience": "all"
+  },
+  {
+    "id": "school-23",
+    "date": "2026-10-09",
+    "title": "Verkehrserziehung",
+    "audience": "info"
+  },
+  {
+    "id": "school-24",
+    "date": "2026-10-12",
+    "title": "Q2-Studienfahrten; 5er Treffen Klassen-/Grundschullehrkräfte;",
+    "audience": "group"
+  },
+  {
+    "id": "school-25",
+    "date": "2026-10-13",
+    "title": "Digitaler Medienabend Eltern ES, 19 UhrQ2-Studienfahrten; 5er Treffen Klassen-/Grundschullehrkräfte; Erprobungsstufenkonferenz 5er",
+    "audience": "group"
+  },
+  {
+    "id": "school-26",
+    "date": "2026-10-14",
+    "title": "Schulkonferenz",
+    "audience": "group"
+  },
+  {
+    "id": "school-27",
+    "date": "2026-10-19",
+    "title": "Herbstferien",
+    "audience": "info"
+  },
+  {
+    "id": "school-28",
+    "date": "2026-11-01",
+    "title": "Allerheiligen",
+    "audience": "info"
+  },
+  {
+    "id": "school-29",
+    "date": "2026-11-02",
+    "title": "Sitzung des Fördervereins (19h)",
+    "audience": "info"
+  },
+  {
+    "id": "school-30",
+    "date": "2026-11-03",
+    "title": "11h Vorbehaltsfilm Jg. 10; Erprobungsstufenkonferenz 6er",
+    "audience": "group"
+  },
+  {
+    "id": "school-31",
+    "date": "2026-11-06",
+    "title": "Eintrag Monita Epochenfächer",
+    "audience": "info"
+  },
+  {
+    "id": "school-32",
+    "date": "2026-11-09",
+    "title": "Gedenkveranstaltung Reichspogromnacht?; Schnuppernachmittag",
+    "audience": "all"
+  },
+  {
+    "id": "school-33",
+    "date": "2026-11-10",
+    "title": "Versand Monita Epochenfächer; Elternabend Kl. 10-Q2 \"Wege mit und ohne Abitur\" (19-20.30h E102)",
+    "audience": "info"
+  },
+  {
+    "id": "school-34",
+    "date": "2026-11-12",
+    "title": "Päd. Tag (QA) inkl. Konferenz EF; Studientag; ggfs. Klausurtag",
+    "audience": "all"
+  },
+  {
+    "id": "school-35",
+    "date": "2026-11-13",
+    "title": "Quartalsende",
+    "audience": "info"
+  },
+  {
+    "id": "school-36",
+    "date": "2026-11-18",
+    "title": "Elternsprechtag (Unterrichtsende 13h; 14.00-18.00h)",
+    "audience": "all"
+  },
+  {
+    "id": "school-37",
+    "date": "2026-11-20",
+    "title": "Elternsprechtag Klassenleitung 5 (10.15-13h); \"Wege mit mittlerem Schulabschluss\": ausgewählte Schüler:innen Stufe 10, Stunden 3 und 4",
+    "audience": "group"
+  },
+  {
+    "id": "school-38",
+    "date": "2026-11-23",
+    "title": "Q1: Campustage; Frankreichaustausch: Besuch aus Cappelle; FoBi Krisenteam (5./6.)",
+    "audience": "info"
+  },
+  {
+    "id": "school-39",
+    "date": "2026-11-25",
+    "title": "Q1: Campustage",
+    "audience": "info"
+  },
+  {
+    "id": "school-40",
+    "date": "2026-11-27",
+    "title": "Adventsfeier",
+    "audience": "all"
+  },
+  {
+    "id": "school-41",
+    "date": "2026-12-05",
+    "title": "ToffT (ohne Jg. 9)",
+    "audience": "all"
+  },
+  {
+    "id": "school-42",
+    "date": "2026-12-07",
+    "title": "Ausgleichstag ToffT (Jg. 9: BFE)",
+    "audience": "info"
+  },
+  {
+    "id": "school-43",
+    "date": "2026-12-22",
+    "title": "3./4. Std. Weihnachtsgottesdienst; 5./6. Klassenleitungsstunde; DB (statt Nachmittagsunterricht)",
+    "audience": "all"
+  },
+  {
+    "id": "school-44",
+    "date": "2026-12-25",
+    "title": "1. Weihnachtstag",
+    "audience": "info"
+  },
+  {
+    "id": "school-45",
+    "date": "2026-12-26",
+    "title": "2. Weihnachtstag",
+    "audience": "info"
+  },
+  {
+    "id": "school-46",
+    "date": "2027-01-01",
+    "title": "Neujahrstag",
+    "audience": "info"
+  },
+  {
+    "id": "school-47",
+    "date": "2027-01-07",
+    "title": "Noteneintrag Q2",
+    "audience": "info"
+  },
+  {
+    "id": "school-48",
+    "date": "2027-01-12",
+    "title": "Lerhrkräftekonferenz; Notenkonferenz Q2",
+    "audience": "all"
+  },
+  {
+    "id": "school-49",
+    "date": "2027-01-14",
+    "title": "19 Uhr Informationsabend Grundschuleltern Q2 LK BI: Exkursion Uni Köln AG Prof. Kopriva (Botanik/Molekularbiologie)",
+    "audience": "info"
+  },
+  {
+    "id": "school-50",
+    "date": "2027-01-15",
+    "title": "Ausgabe Laufbahnbescheinigung Q2",
+    "audience": "info"
+  },
+  {
+    "id": "school-51",
+    "date": "2027-01-19",
+    "title": "Crash-Kurs Q1",
+    "audience": "info"
+  },
+  {
+    "id": "school-52",
+    "date": "2027-01-25",
+    "title": "bis 12h Noteneintrag; Gemeinsam Stark Kl. 6",
+    "audience": "info"
+  },
+  {
+    "id": "school-53",
+    "date": "2027-01-26",
+    "title": "Gemeinsam Stark Kl. 6",
+    "audience": "info"
+  },
+  {
+    "id": "school-54",
+    "date": "2027-01-27",
+    "title": "Jugend- und Schülergedenktag; Gemeinsam Stark Kl. 6",
+    "audience": "info"
+  },
+  {
+    "id": "school-55",
+    "date": "2027-02-01",
+    "title": "Zeugniskonferenzen (Studientag)",
+    "audience": "all"
+  },
+  {
+    "id": "school-56",
+    "date": "2027-02-04",
+    "title": "Weiberfastnacht; Unterrichtsende: 12h",
+    "audience": "info"
+  },
+  {
+    "id": "school-57",
+    "date": "2027-02-05",
+    "title": "bewegl. Ferientag",
+    "audience": "info"
+  },
+  {
+    "id": "school-58",
+    "date": "2027-02-07",
+    "title": "KLS bei Schull- und Veedelszöch",
+    "audience": "info"
+  },
+  {
+    "id": "school-59",
+    "date": "2027-02-08",
+    "title": "Rosenmontag (bewegl. Ferientag)",
+    "audience": "info"
+  },
+  {
+    "id": "school-60",
+    "date": "2027-02-09",
+    "title": "Karnevalsdienstag (bewegl. Ferientag)",
+    "audience": "info"
+  },
+  {
+    "id": "school-61",
+    "date": "2027-02-10",
+    "title": "Aschermittwoch; Päd. Tag",
+    "audience": "all"
+  },
+  {
+    "id": "school-62",
+    "date": "2027-02-12",
+    "title": "Halbjahreszeugnisse; 11h Teamsitzungen Klassenleitungen",
+    "audience": "group"
+  },
+  {
+    "id": "school-63",
+    "date": "2027-02-15",
+    "title": "Projekttage (Ende 13h); EF: Praktikum",
+    "audience": "all"
+  },
+  {
+    "id": "school-64",
+    "date": "2027-02-16",
+    "title": "Projekttage (Ende 13h); EF: Praktikum",
+    "audience": "all"
+  },
+  {
+    "id": "school-65",
+    "date": "2027-02-17",
+    "title": "Projekttage (Ende 13h); EF: Praktikum; Beginn Prüfungszeitraum Vera 8 (bis 10.03.)",
+    "audience": "all"
+  },
+  {
+    "id": "school-66",
+    "date": "2027-02-18",
+    "title": "Projekttage (Ende 13h); EF: Praktikum; Projekttage Hansa",
+    "audience": "all"
+  },
+  {
+    "id": "school-67",
+    "date": "2027-02-19",
+    "title": "Lernberatungen (Aktion Tagwerk)/Teamsitzungen; Stufe 9: Berufsfelderkundungstag 2; EF: Praktikum",
+    "audience": "all"
+  },
+  {
+    "id": "school-68",
+    "date": "2027-02-22",
+    "title": "Start Stundenplan 2. HJ",
+    "audience": "info"
+  },
+  {
+    "id": "school-69",
+    "date": "2027-03-04",
+    "title": "Info-Abend EF (19:30 Uhr, digital über Teams)",
+    "audience": "info"
+  },
+  {
+    "id": "school-70",
+    "date": "2027-03-08",
+    "title": "Rom-Fahrt EF?",
+    "audience": "info"
+  },
+  {
+    "id": "school-71",
+    "date": "2027-03-09",
+    "title": "Infoabend 2. Fremdsprache; Zuckerfest",
+    "audience": "info"
+  },
+  {
+    "id": "school-72",
+    "date": "2027-03-10",
+    "title": "Zuckerfest, Ende Prüfungszeitraum Vera 8",
+    "audience": "info"
+  },
+  {
+    "id": "school-73",
+    "date": "2027-03-11",
+    "title": "Schulkonferenz; Zuckerfest",
+    "audience": "group"
+  },
+  {
+    "id": "school-74",
+    "date": "2027-03-16",
+    "title": "Lehrkräftekonferenz; Notenkonferenz Q2",
+    "audience": "all"
+  },
+  {
+    "id": "school-75",
+    "date": "2027-03-17",
+    "title": "Infoabend Diff",
+    "audience": "info"
+  },
+  {
+    "id": "school-76",
+    "date": "2027-03-18",
+    "title": "Erste Konferenz des ZAA",
+    "audience": "info"
+  },
+  {
+    "id": "school-77",
+    "date": "2027-03-19",
+    "title": "Letzter Unterrichtstag Q2",
+    "audience": "info"
+  },
+  {
+    "id": "school-78",
+    "date": "2027-03-22",
+    "title": "Osterferien",
+    "audience": "info"
+  },
+  {
+    "id": "school-79",
+    "date": "2027-03-26",
+    "title": "Karfreitag",
+    "audience": "info"
+  },
+  {
+    "id": "school-80",
+    "date": "2027-03-28",
+    "title": "Ostern",
+    "audience": "info"
+  },
+  {
+    "id": "school-81",
+    "date": "2027-03-29",
+    "title": "Ostermontag",
+    "audience": "info"
+  },
+  {
+    "id": "school-82",
+    "date": "2027-04-05",
+    "title": "Q2: Prüfungsvorbereitung; Frankreichaustausch: Fahrt nach Capelle",
+    "audience": "info"
+  },
+  {
+    "id": "school-83",
+    "date": "2027-04-13",
+    "title": "Beginn schriftl. ZA: Lk Ku, Ge, Sw;",
+    "audience": "info"
+  },
+  {
+    "id": "school-84",
+    "date": "2027-04-15",
+    "title": "ZA: Spa",
+    "audience": "info"
+  },
+  {
+    "id": "school-85",
+    "date": "2027-04-16",
+    "title": "ZA: Bio (Lk/Gk)= externe Zweitkorrekturen",
+    "audience": "info"
+  },
+  {
+    "id": "school-86",
+    "date": "2027-04-19",
+    "title": "ZA: Ku,Mu,Päda,Ge,Sw,Rel, Ek",
+    "audience": "info"
+  },
+  {
+    "id": "school-87",
+    "date": "2027-04-20",
+    "title": "Eintrag Monita; ZA: Phy (Lk/Gk)",
+    "audience": "info"
+  },
+  {
+    "id": "school-88",
+    "date": "2027-04-21",
+    "title": "ZA: Ch",
+    "audience": "info"
+  },
+  {
+    "id": "school-89",
+    "date": "2027-04-22",
+    "title": "Versand Monita",
+    "audience": "info"
+  },
+  {
+    "id": "school-90",
+    "date": "2027-04-23",
+    "title": "Abschluss Wahlen für EF und Q1",
+    "audience": "info"
+  },
+  {
+    "id": "school-91",
+    "date": "2027-04-27",
+    "title": "ZA: D (Lk/Gk)",
+    "audience": "info"
+  },
+  {
+    "id": "school-92",
+    "date": "2027-04-28",
+    "title": "Elternsprechtag (Unterrichtsende 13h; 14.00-18.00)",
+    "audience": "all"
+  },
+  {
+    "id": "school-93",
+    "date": "2027-04-30",
+    "title": "ZA: E (Lk/Gk); Elternsprechtag Klassenleitung 5 (10.15-13h); Quartalsende",
+    "audience": "group"
+  },
+  {
+    "id": "school-94",
+    "date": "2027-05-01",
+    "title": "Tag der Arbeit (Feiertag)",
+    "audience": "info"
+  },
+  {
+    "id": "school-95",
+    "date": "2027-05-03",
+    "title": "ZA: F",
+    "audience": "info"
+  },
+  {
+    "id": "school-96",
+    "date": "2027-05-04",
+    "title": "Erprobungsstufenkonferenz 5er",
+    "audience": "group"
+  },
+  {
+    "id": "school-97",
+    "date": "2027-05-05",
+    "title": "ZA: M (LK/Gk)",
+    "audience": "info"
+  },
+  {
+    "id": "school-98",
+    "date": "2027-05-06",
+    "title": "Christi Himmelfahrt",
+    "audience": "info"
+  },
+  {
+    "id": "school-99",
+    "date": "2027-05-10",
+    "title": "Beginn mündl. Abitur im 4. Fach",
+    "audience": "info"
+  },
+  {
+    "id": "school-100",
+    "date": "2027-05-11",
+    "title": "ZP10 D",
+    "audience": "info"
+  },
+  {
+    "id": "school-101",
+    "date": "2027-05-13",
+    "title": "ZP10 E; Übergabe ZA an externe Zweitkorrektur",
+    "audience": "info"
+  },
+  {
+    "id": "school-102",
+    "date": "2027-05-16",
+    "title": "Pfingsten",
+    "audience": "info"
+  },
+  {
+    "id": "school-103",
+    "date": "2027-05-17",
+    "title": "Pfingsten (Feiertag)",
+    "audience": "info"
+  },
+  {
+    "id": "school-104",
+    "date": "2027-05-18",
+    "title": "Pfingstferien",
+    "audience": "info"
+  },
+  {
+    "id": "school-105",
+    "date": "2027-05-19",
+    "title": "Päd. Tag inkl. Erprobungsstufenkonferenz 6er (Tandems 9/10?)",
+    "audience": "all"
+  },
+  {
+    "id": "school-106",
+    "date": "2027-05-20",
+    "title": "ZP10 M; Berufsexpertenabend EF (19-10.30h PZ)",
+    "audience": "info"
+  },
+  {
+    "id": "school-107",
+    "date": "2027-05-25",
+    "title": "ZKE D",
+    "audience": "info"
+  },
+  {
+    "id": "school-108",
+    "date": "2027-05-26",
+    "title": "Prüfungen 4. Fach",
+    "audience": "all"
+  },
+  {
+    "id": "school-109",
+    "date": "2027-05-27",
+    "title": "Fronleichnam",
+    "audience": "info"
+  },
+  {
+    "id": "school-110",
+    "date": "2027-05-28",
+    "title": "Prüfungen 4. Fach (Studientag Sek I, ggfs. Klausurtag Sek II)",
+    "audience": "all"
+  },
+  {
+    "id": "school-111",
+    "date": "2027-05-31",
+    "title": "ZKE M; Übergabe ZP10 an Zweitkorrektur",
+    "audience": "info"
+  },
+  {
+    "id": "school-112",
+    "date": "2027-06-07",
+    "title": "ZP 10: Noteneintrag",
+    "audience": "info"
+  },
+  {
+    "id": "school-113",
+    "date": "2027-06-08",
+    "title": "Abitur: Rückgabe externe Zweitkorrektur (Drittkorrektur)",
+    "audience": "info"
+  },
+  {
+    "id": "school-114",
+    "date": "2027-06-09",
+    "title": "2. ZAA",
+    "audience": "info"
+  },
+  {
+    "id": "school-115",
+    "date": "2027-06-10",
+    "title": "ZP10 Notenbekanntgabe; Bekanntgabe Abiturergebnisse",
+    "audience": "info"
+  },
+  {
+    "id": "school-116",
+    "date": "2027-06-11",
+    "title": "Meldung freiw. Prüfungen",
+    "audience": "info"
+  },
+  {
+    "id": "school-117",
+    "date": "2027-06-14",
+    "title": "DB Prüfungsvorsitz",
+    "audience": "info"
+  },
+  {
+    "id": "school-118",
+    "date": "2027-06-15",
+    "title": "Lehrkräftekonferenz (Möglichkeit zu FPAs)",
+    "audience": "all"
+  },
+  {
+    "id": "school-119",
+    "date": "2027-06-16",
+    "title": "AF 1.-3.",
+    "audience": "group"
+  },
+  {
+    "id": "school-120",
+    "date": "2027-06-17",
+    "title": "AF 1.-3.",
+    "audience": "group"
+  },
+  {
+    "id": "school-121",
+    "date": "2027-06-23",
+    "title": "3. ZAA",
+    "audience": "info"
+  },
+  {
+    "id": "school-122",
+    "date": "2027-07-01",
+    "title": "Kennenlernnachmittag neue 5er",
+    "audience": "info"
+  },
+  {
+    "id": "school-123",
+    "date": "2027-07-02",
+    "title": "12.30 Uhr Abiturfeier (Unterrichtsende 11.50h)",
+    "audience": "all"
+  },
+  {
+    "id": "school-124",
+    "date": "2027-07-03",
+    "title": "Letzter Tag der Zeugnisausgabe",
+    "audience": "info"
+  },
+  {
+    "id": "school-125",
+    "date": "2027-07-05",
+    "title": "bis 12h Noteneintrag",
+    "audience": "info"
+  },
+  {
+    "id": "school-126",
+    "date": "2027-07-09",
+    "title": "KLS Outdoor",
+    "audience": "info"
+  },
+  {
+    "id": "school-127",
+    "date": "2027-07-12",
+    "title": "Zeugniskonferenzen (Studientag) Stufe 9: Berufsfelderkundungstag 3",
+    "audience": "info"
+  },
+  {
+    "id": "school-128",
+    "date": "2027-07-14",
+    "title": "Sommerfest",
+    "audience": "info"
+  },
+  {
+    "id": "school-129",
+    "date": "2027-07-16",
+    "title": "Schuljahresabschlussgottesdienst; 3. Stunde: Zeugnisausgabe",
+    "audience": "info"
+  },
+  {
+    "id": "school-130",
+    "date": "2027-07-19",
+    "title": "Beginn Sommerferien (letzter Ferientag 31.8.)",
+    "audience": "info"
+  }
+]
